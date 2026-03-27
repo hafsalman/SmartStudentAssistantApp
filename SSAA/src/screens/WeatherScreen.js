@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { View, Text, TextInput, Button } from "react-native";
+import { View, Text, TextInput } from "react-native";
+import CuteButton from "../components/CuteButton";
 import { fetchWeather } from "../services/weatherService";
 
 export default function WeatherScreen() {
@@ -12,21 +13,37 @@ export default function WeatherScreen() {
   };
 
   return (
-    <View style={{ padding: 20 }}>
+    <View style={{ flex: 1, padding: 20, backgroundColor: "#F7F7FB" }}>
+      <Text style={{ fontSize: 22, fontWeight: "bold" }}>
+        🌦 Weather Search
+      </Text>
+
       <TextInput
-        placeholder="Enter City (e.g. Karachi)"
+        placeholder="Enter City (Karachi)"
         value={area}
         onChangeText={setArea}
-        style={{ borderWidth: 1, marginBottom: 10, padding: 8 }}
+        style={{
+          borderWidth: 1,
+          padding: 10,
+          marginVertical: 10,
+          borderRadius: 10,
+        }}
       />
 
-      <Button title="Search Weather" onPress={getWeather} />
+      <CuteButton title="Search" onPress={getWeather} />
 
       {weather && (
-        <View style={{ marginTop: 20 }}>
-          <Text>📍 City: {weather.city}</Text>
-          <Text>🌡 Temperature: {weather.temp}°C</Text>
-          <Text>⛅ Condition: {weather.condition}</Text>
+        <View
+          style={{
+            backgroundColor: "#E3F2FD",
+            padding: 15,
+            borderRadius: 15,
+            marginTop: 15,
+          }}
+        >
+          <Text>📍 {weather.city}</Text>
+          <Text>🌡 {weather.temp}°C</Text>
+          <Text>⛅ {weather.condition}</Text>
         </View>
       )}
     </View>
