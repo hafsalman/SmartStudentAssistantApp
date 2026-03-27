@@ -1,0 +1,77 @@
+[
+  {
+    "area": "Karachi",
+    "level": "Heavy",
+    "message": "⚠️ Heavy traffic in Karachi - expect delays on main roads"
+  },
+  {
+    "area": "Lahore",
+    "level": "Medium",
+    "message": "🚗 Moderate traffic in Lahore - some congestion in city center"
+  },
+  {
+    "area": "Islamabad",
+    "level": "Low",
+    "message": "✅ Smooth traffic in Islamabad - roads are clear"
+  },
+  {
+    "area": "Rawalpindi",
+    "level": "Medium",
+    "message": "🚧 Traffic building up in Rawalpindi - minor delays expected"
+  },
+  {
+    "area": "Faisalabad",
+    "level": "Low",
+    "message": "✅ Light traffic in Faisalabad - smooth commute"
+  },
+  {
+    "area": "Multan",
+    "level": "Medium",
+    "message": "🚗 Moderate traffic in Multan - busy market areas"
+  },
+  {
+    "area": "Peshawar",
+    "level": "Heavy",
+    "message": "⚠️ Heavy congestion in Peshawar - avoid peak routes"
+  },
+  {
+    "area": "Quetta",
+    "level": "Low",
+    "message": "✅ Traffic is flowing smoothly in Quetta"
+  },
+  {
+    "area": "Hyderabad",
+    "level": "Medium",
+    "message": "🚗 Moderate traffic in Hyderabad - slow movement on highways"
+  },
+  {
+    "area": "Sialkot",
+    "level": "Low",
+    "message": "✅ Clear roads in Sialkot - no major delays"
+  },
+  {
+    "area": "Gujranwala",
+    "level": "Heavy",
+    "message": "⚠️ Heavy traffic in Gujranwala - expect longer travel time"
+  },
+  {
+    "area": "Abbottabad",
+    "level": "Low",
+    "message": "✅ Smooth traffic in Abbottabad - pleasant drive"
+  },
+  {
+    "area": "Bahawalpur",
+    "level": "Medium",
+    "message": "🚗 Moderate traffic in Bahawalpur - slight congestion"
+  },
+  {
+    "area": "Sukkur",
+    "level": "Low",
+    "message": "✅ Light traffic in Sukkur - easy commute"
+  },
+  {
+    "area": "Gwadar",
+    "level": "Low",
+    "message": "✅ Minimal traffic in Gwadar - roads are clear"
+  }
+]
